@@ -15,14 +15,13 @@ profile_pic= current_dir / "assets" / "shef-profile-pic.png"
 #--GENERAL SETTINGS---
 
 PAGE_TITLE = "Digital CV | Shefali Chaugule"
-PAGE_ICON = ":wave:"
+PAGE_ICON = ":globe_with_meridians:"
 NAME = "Shefali Chaugule"
 DESCRIPTION = """Python | Machine Learning | Data driven decision making. """
 EMAIL = "Chauguleshefali9867@gmail.com"
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/shefali-chaugule-942789200/",
     "GitHub": "https://github.com/Shefali9867",
-    "Twitter": "https://twitter.com",
 }
 PROJECTS = {
     "🏆 A Boosting Technique for Diabetes Mellitus Classification and Prediction in the Healthcare Industry Based on Machine Learning Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
