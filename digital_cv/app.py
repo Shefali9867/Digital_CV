@@ -66,6 +66,7 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
 st.subheader("Experience & Qualifications")
+st.write("---")
 st.write(
     """
 - ✔️ Expereince extracting actionable insights from data
@@ -79,6 +80,7 @@ st.write(
 # --- SKILLS ---
 st.write('\n')
 st.subheader("Technical Skills")
+st.write("---")
 st.write(
     """
 - 👩‍💻 Programming: Python (Scikit-learn, Pandas), SQL,Java,JavaScript,CSS.
@@ -90,6 +92,7 @@ st.write(
 
 st.write('\n')
 st.subheader("Soft Skills")
+st.write("---")
 st.write(
     """
 - ✔️Problem Solving, Critical Thinking
@@ -115,6 +118,10 @@ st.write(
 """
 )
 
+#---CERTIFICATIONS---
+st.write('\n')
+st.subheader("CERTIFICATIONS")
+st.write("---")
 
 
 
