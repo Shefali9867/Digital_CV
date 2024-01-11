@@ -26,6 +26,7 @@ SOCIAL_MEDIA = {
 PROJECTS = {
     "🏆 A Boosting Technique for Diabetes Mellitus Classification and Prediction in the Healthcare Industry Based on Machine Learning": "https://github.com/Shefali9867/detection-of-diabetes-mellitus",
     "🏆 A Machine Learning Framework for Domain Generation Algorith(DGA)Based Malware Detection": "",
+    "🏆 M-Hike Mobile Application":"https://github.com/Shefali9867/Mhike" 
 }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
