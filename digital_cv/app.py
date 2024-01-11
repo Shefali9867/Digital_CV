@@ -15,7 +15,7 @@ profile_pic= current_dir / "assets" / "shef-profile-pic.png"
 #--GENERAL SETTINGS---
 
 PAGE_TITLE = "Digital CV | Shefali Chaugule"
-PAGE_ICON = ":globe_with_meridians:"
+PAGE_ICON = ":sparkles:"
 NAME = "Shefali Chaugule"
 DESCRIPTION = """Python | Machine Learning | Data driven decision making. """
 EMAIL = "Chauguleshefali9867@gmail.com"
@@ -24,8 +24,8 @@ SOCIAL_MEDIA = {
     "GitHub": "https://github.com/Shefali9867",
 }
 PROJECTS = {
-    "🏆 A Boosting Technique for Diabetes Mellitus Classification and Prediction in the Healthcare Industry Based on Machine Learning Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
-    "🏆 A Machine Learning Framework for Domain Generation Algorith(DGA)Based Malware Detection": "https://youtu.be/3egaMfE9388",
+    "🏆 A Boosting Technique for Diabetes Mellitus Classification and Prediction in the Healthcare Industry Based on Machine Learning": "https://github.com/Shefali9867/detection-of-diabetes-mellitus",
+    "🏆 A Machine Learning Framework for Domain Generation Algorith(DGA)Based Malware Detection": "",
 }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
@@ -112,7 +112,7 @@ st.write("🚧", "**Tesco Stock Control Colleague | Tesco LTD**")
 st.write("10/2022 - Present")
 st.write(
     """
-- ► Maintain accurate records of stock levels, ensuring adequate supply without overstocking
+- ► Maintain accurate records of stock levels, ensuring adequate supply without overstocking.
 - ► Maintain meticulous records and enter data accurately into inventory management systems. Generate reports to track stock movements and trends.
 - ► Implement FIFO (First In, First Out) method to ensure older stock is used first, reducing waste.
 """
@@ -122,6 +122,12 @@ st.write(
 st.write('\n')
 st.subheader("CERTIFICATIONS")
 st.write("---")
+st.write(
+    """
+- ► JAVA - Mastering the Fundamentals (Scaler •2020)
+- ►Android App Development (VirtualSkillEnhancementProgram •2020)
+"""
+)
 
 
 
