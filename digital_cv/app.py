@@ -58,11 +58,10 @@ with col2:
 
 
 # --- SOCIAL LINKS ---
-# --- SOCIAL LINKS ---
 st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, data) in enumerate(SOCIAL_MEDIA.items()):
-    icon_html = f"<i class='{data['icon']}' style='font-size:24px'></i>"
+    icon_html = f"<img src='https://img.shields.io/badge/{platform.replace(' ', '%20')}-{data['icon']}-blue?style=for-the-badge&logo={platform.lower()}&logoColor=white' alt='{platform}'>"
     cols[index].markdown(f"{icon_html} [{platform}]({data['url']})", unsafe_allow_html=True)
 
 # --- EXPERIENCE & QUALIFICATIONS ---
