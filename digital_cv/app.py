@@ -63,6 +63,11 @@ cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
   cols[index].write(f"[{platform}]({link})")
 
+linkedin_url = "https://www.linkedin.com/in/shefali-chaugule-942789200/"
+
+# Create a button that links to your LinkedIn profile
+if st.button("LinkedIn Profile"):
+    st.markdown(f"[LinkedIn Profile]({linkedin_url})", unsafe_allow_html=True)
 
 
 # --- EXPERIENCE & QUALIFICATIONS ---
@@ -144,11 +149,6 @@ for project, link in PROJECTS.items():
 
 
 
-
-
-
-
-# Display social media links
 
 
 
