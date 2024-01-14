@@ -61,8 +61,9 @@ with col2:
 st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, data) in enumerate(SOCIAL_MEDIA.items()):
-    icon_html = f"<img src='https://img.shields.io/badge/{platform.replace(' ', '%20')}-{data['icon']}-blue?style=for-the-badge&logo={platform.lower()}&logoColor=white' alt='{platform}'>"
-    cols[index].markdown(f"{icon_html} [{platform}]({data['url']})", unsafe_allow_html=True)
+    icon_url = f"https://img.shields.io/badge/{platform.replace(' ', '%20')}-{data['icon']}-blue?style=for-the-badge&logo={platform.lower()}&logoColor=white"
+    cols[index].image(icon_url, use_container_width=True)
+    cols[index].markdown(f"[{platform}]({data['url']})", unsafe_allow_html=True)
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
