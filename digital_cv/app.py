@@ -12,14 +12,17 @@ profile_pic= current_dir / "assets" / "shef-profile-pic.png"
 linkedin_url = "https://www.linkedin.com/in/shefali-chaugule-942789200/"
 
 #--GENERAL SETTINGS---
+icon_size = 22
 PAGE_TITLE = "Digital CV | Shefali Chaugule"
 PAGE_ICON = ":sparkles:"
 NAME = "Shefali Chaugule"
 DESCRIPTION = """Python | Machine Learning | Data driven decision making. """
 EMAIL = "Chauguleshefali9867@gmail.com"
 SOCIAL_MEDIA = {
-    "LinkedIn": { "https://www.linkedin.com/in/shefali-chaugule-942789200/"},
-    "GitHub": { "https://github.com/Shefali9867"},
+    "st.button('LinkedIn','https://www.linkedin.com/in/shefali-chaugule-942789200/','LinkedIn','icon_size'},
+    "st.button('GitHub','https://github.com/Shefali9867','GitHub','icon_size'},
+ 
+    #"GitHub": { "https://github.com/Shefali9867"},
 
 }
 PROJECTS = {
