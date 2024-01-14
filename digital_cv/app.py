@@ -62,7 +62,7 @@ with col2:
 st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-    cols[index].write(f"<i class='{icon}'></i> [{platform}]({link})", unsafe_allow_html=True)
+     cols[index].write(f"[{platform}]({link})")
 
 
 # --- EXPERIENCE & QUALIFICATIONS ---
