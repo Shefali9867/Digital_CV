@@ -129,7 +129,7 @@ st.write(
     """
 - ► JAVA - Mastering the Fundamentals (Scaler •2020)
 - ► Android App Development (VirtualSkillEnhancementProgram •2020)
-- ► Published Research Pape on  A Machine Learning Framework for Domain Generation Algorith(DGA)Based Malware Detection - International Conference on Emerging Trends in Technology Science & Education (ICETTSE-2022)
+- ► Published Research Paper on  A Machine Learning Framework for Domain Generation Algorith(DGA)Based Malware Detection - International Conference on Emerging Trends in Technology Science & Education (ICETTSE-2022)
 
 """
 )
