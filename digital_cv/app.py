@@ -19,8 +19,15 @@ NAME = "Shefali Chaugule"
 DESCRIPTION = """Python | Machine Learning | Data driven decision making. """
 EMAIL = "Chauguleshefali9867@gmail.com"
 SOCIAL_MEDIA = {
-    "LinkedIn": { "https://www.linkedin.com/in/shefali-chaugule-942789200/"},
-    "GitHub": { "https://github.com/Shefali9867"},
+    #"LinkedIn": { "https://www.linkedin.com/in/shefali-chaugule-942789200/"},
+    #"GitHub": { "https://github.com/Shefali9867"},
+    linkedin_url = "https://www.linkedin.com/in/shefali-chaugule-942789200/"
+
+# Create a button that links to your LinkedIn profile
+if st.button("LinkedIn Profile"):
+    js_code = f"window.open('{linkedin_url}', '_blank')"
+    st.write(f'<script>{js_code}</script>', unsafe_allow_html=True)
+
 }
 PROJECTS = {
     "🏆 A Boosting Technique for Diabetes Mellitus Classification and Prediction in the Healthcare Industry Based on Machine Learning": "https://github.com/Shefali9867/detection-of-diabetes-mellitus",
@@ -63,12 +70,6 @@ cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
   cols[index].write(f"[{platform}]({link})")
 
-linkedin_url = "https://www.linkedin.com/in/shefali-chaugule-942789200/"
-
-# Create a button that links to your LinkedIn profile
-if st.button("LinkedIn Profile"):
-    js_code = f"window.open('{linkedin_url}', '_blank')"
-    st.write(f'<script>{js_code}</script>', unsafe_allow_html=True)
 
 
 
