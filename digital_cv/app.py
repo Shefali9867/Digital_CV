@@ -61,8 +61,8 @@ with col2:
 st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, data) in enumerate(SOCIAL_MEDIA.items()):
-    icon_path = current_dir / "assets" / f"{platform.lower()}_icon.png"
-    cols[index].image(icon_path, use_container_width=True, format="PNG")
+    icon_path = current_dir / "assets" / f"{platform.lower()}_icon.svg"
+    cols[index].image(icon_path, use_container_width=True, format="SVG")
     cols[index].markdown(f"[{platform}]({data['url']})", unsafe_allow_html=True)
 
 # --- EXPERIENCE & QUALIFICATIONS ---
