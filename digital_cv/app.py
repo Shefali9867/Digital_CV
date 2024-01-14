@@ -61,8 +61,8 @@ with col2:
 st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, data) in enumerate(SOCIAL_MEDIA.items()):
-    icon_url = f"https://img.shields.io/badge/{platform.replace(' ', '%20')}-{data['icon']}-blue?style=for-the-badge&logo={platform.lower()}&logoColor=white"
-    cols[index].image(icon_url, use_container_width=True)
+    icon_path = current_dir / "assets" / f"{platform.lower()}_icon.png"
+    cols[index].image(icon_path, use_container_width=True, format="PNG")
     cols[index].markdown(f"[{platform}]({data['url']})", unsafe_allow_html=True)
 
 # --- EXPERIENCE & QUALIFICATIONS ---
