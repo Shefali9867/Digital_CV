@@ -67,7 +67,9 @@ linkedin_url = "https://www.linkedin.com/in/shefali-chaugule-942789200/"
 
 # Create a button that links to your LinkedIn profile
 if st.button("LinkedIn Profile"):
-    st.markdown(f"({linkedin_url})", unsafe_allow_html=True)
+    js_code = f"window.open('{linkedin_url}', '_blank')"
+    st.write(f'<script>{js_code}</script>', unsafe_allow_html=True)
+
 
 
 # --- EXPERIENCE & QUALIFICATIONS ---
