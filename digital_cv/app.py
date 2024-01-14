@@ -58,11 +58,12 @@ with col2:
 
 
 # --- SOCIAL LINKS ---
-
+# --- SOCIAL LINKS ---
 st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, data) in enumerate(SOCIAL_MEDIA.items()):
-    cols[index].markdown(f"<a href='{data['url']}' target='_blank'><i class='{data['icon']}'></i> {platform}</a>", unsafe_allow_html=True)
+    icon_html = f"<i class='{data['icon']}' style='font-size:24px'></i>"
+    cols[index].markdown(f"{icon_html} [{platform}]({data['url']})", unsafe_allow_html=True)
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
