@@ -58,10 +58,18 @@ with col2:
 
 
 # --- SOCIAL LINKS ---
+
 st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-    cols[index].write(f"[{platform}]({link})")
+    if platform == "LinkedIn":
+        icon = "fab fa-linkedin"
+    elif platform == "GitHub":
+        icon = "fab fa-github"
+    else:
+        icon = "fas fa-globe"
+        
+    cols[index].write(f"<i class='{icon}'></i> [{platform}]({link})", unsafe_allow_html=True)
 
 
 # --- EXPERIENCE & QUALIFICATIONS ---
