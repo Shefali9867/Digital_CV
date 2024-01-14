@@ -20,6 +20,9 @@ NAME = "Shefali Chaugule"
 DESCRIPTION = """Python | Machine Learning | Data driven decision making. """
 EMAIL = "Chauguleshefali9867@gmail.com"
 SOCIAL_MEDIA = {
+   linkedin_url = "https://www.linkedin.com/in/shefali-chaugule-942789200/"
+if st.button("LinkedIn Profile"):
+    st.markdown(f"[LinkedIn Profile]({linkedin_url})", unsafe_allow_html=True)
     "LinkedIn": { "https://www.linkedin.com/in/shefali-chaugule-942789200/"},
     "GitHub": { "https://github.com/Shefali9867"},
 }
