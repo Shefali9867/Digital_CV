@@ -9,8 +9,7 @@ current_dir = Path(__file__).parent if "__file__" in locals()else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "CV_Shefali.pdf"
 profile_pic= current_dir / "assets" / "shef-profile-pic.png"
-
-
+linkedin_url = "https://www.linkedin.com/in/shefali-chaugule-942789200/"
 
 #--GENERAL SETTINGS---
 PAGE_TITLE = "Digital CV | Shefali Chaugule"
@@ -21,8 +20,6 @@ EMAIL = "Chauguleshefali9867@gmail.com"
 SOCIAL_MEDIA = {
     #"LinkedIn": { "https://www.linkedin.com/in/shefali-chaugule-942789200/"},
     #"GitHub": { "https://github.com/Shefali9867"},
-    linkedin_url = "https://www.linkedin.com/in/shefali-chaugule-942789200/"
-
 # Create a button that links to your LinkedIn profile
 if st.button("LinkedIn Profile"):
     js_code = f"window.open('{linkedin_url}', '_blank')"
