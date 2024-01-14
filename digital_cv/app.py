@@ -61,8 +61,8 @@ with col2:
 # --- SOCIAL LINKS ---
 st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
-#for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-  #  cols[index].write(f"[{platform}]({link})")
+for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
+  cols[index].write(f"[{platform}]({link})")
 st.markdown(f"<style>{background_effect_css}</style>", unsafe_allow_html=True)
 for platform, link in SOCIAL_MEDIA.items():
     st.markdown(f"<a href='{link}' target='_blank'>{platform}</a>", unsafe_allow_html=True)
