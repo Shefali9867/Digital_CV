@@ -20,8 +20,8 @@ NAME = "Shefali Chaugule"
 DESCRIPTION = """Python | Machine Learning | Data driven decision making. """
 EMAIL = "Chauguleshefali9867@gmail.com"
 SOCIAL_MEDIA = {
-    "LinkedIn": {"https://www.linkedin.com/in/shefali-chaugule-942789200/", "icon": "fab fa-linkedin"},
-    "GitHub": {"https://github.com/Shefali9867", "icon": "fab fa-github"},
+    "LinkedIn": {"url": "https://www.linkedin.com/in/shefali-chaugule-942789200/", "icon": "fab fa-linkedin"},
+    "GitHub": {"url": "https://github.com/Shefali9867", "icon": "fab fa-github"},
 }
 PROJECTS = {
     "🏆 A Boosting Technique for Diabetes Mellitus Classification and Prediction in the Healthcare Industry Based on Machine Learning": "https://github.com/Shefali9867/detection-of-diabetes-mellitus",
@@ -62,7 +62,7 @@ with col2:
 st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-     cols[index].write(f"[{platform}]({link})")
+     cols[index].write(f"<i class='{data['icon']}'></i> [{platform}]({data['url']})", unsafe_allow_html=True)
 
 
 # --- EXPERIENCE & QUALIFICATIONS ---
