@@ -18,10 +18,9 @@ NAME = "Shefali Chaugule"
 DESCRIPTION = """Python | Machine Learning | Data driven decision making. """
 EMAIL = "Chauguleshefali9867@gmail.com"
 SOCIAL_MEDIA = {
-    "st.button('LinkedIn','https://www.linkedin.com/in/shefali-chaugule-942789200/','LinkedIn','icon_size'),
-    "st.button('GitHub','https://github.com/Shefali9867','GitHub','icon_size'),
- 
-    #"GitHub": { "https://github.com/Shefali9867"},
+    "LinkedIn": "https://www.linkedin.com/in/shefali-chaugule-942789200/",
+    "GitHub":  "https://github.com/Shefali9867",
+    "Stackverflow": "https://stackoverflow.com/users/23246721/shefali-chaugule",
 
 }
 PROJECTS = {
